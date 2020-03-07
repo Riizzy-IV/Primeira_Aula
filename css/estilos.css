@@ -4,17 +4,26 @@
   box-sizing: border-box;
 }
 header {
+<<<<<<< HEAD
   background-image: url("../img/nike.jpg");
   height: 220px;
   background-size: 100%;
   background-position: 0 -380px;
   transition: ease 2s;
+=======
+  background-image: url("../img/foto3.jpg");
+  height: 250px;
+  background-size: 100%;
+  background-position: 0 -1500px;
+  transition: ease 1s;
+>>>>>>> 26b735f7effc4fe2cddc69f2735885c5e9556872
   position: fixed;
   top: 0;
   width: 100%;
   box-shadow: 0px 5px 6px black;
   z-index: 100;
 }
+<<<<<<< HEAD
 nav#lista {
   background-color: rgba(0, 0, 0, 0.7);
   text-align: center;
@@ -40,10 +49,26 @@ li {
 a {
  font-family: 'Acme', sans-serif;
   font-size: 15pt;
+=======
+nav {
+  background-color: rgba(0, 0, 0, 0.7);
+  text-align: center;
+  padding: 20px 0;
+}
+li {
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+a {
+  font-family: verdana;
+  font-size: 10pt;
+>>>>>>> 26b735f7effc4fe2cddc69f2735885c5e9556872
   color: rgb(255, 255, 255);
   text-decoration: none;
 }
 a:hover {
+<<<<<<< HEAD
   text-shadow: 1px 1px 0.5px blue;
 }
 main {
@@ -54,10 +79,21 @@ main {
   opacity: 1;
   background-position: 0 -1500px;
   background-image: url("../img/background.jpg")
+=======
+  text-shadow: 1px 1px 0.5px red;
+}
+main {
+  margin-top: 300px;
+  padding: 0 50px;
+  text-align: justify;
+  line-height: 22, 5pt;
+  font-size: 15pt;
+>>>>>>> 26b735f7effc4fe2cddc69f2735885c5e9556872
 }
 p {
   margin-bottom: 15pt;
 }
+<<<<<<< HEAD
 img#tenis {
   width: 500px;
   height: 500px;
@@ -66,10 +102,19 @@ img#tenis {
   opacity: 95%;
   transition: 0.4s;
   z-index: 100;
+=======
+img {
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  opacity: 70%;
+  transition: 0.5s;
+>>>>>>> 26b735f7effc4fe2cddc69f2735885c5e9556872
 }
 img:hover {
   cursor: pointer;
   opacity: 100%;
+<<<<<<< HEAD
   transform: scale(1.1);
 }
 div {
@@ -81,10 +126,22 @@ footer {
   background-color: black;
   text-align: center;
   padding: 100px;
+=======
+  transform: scale(1.5);
+}
+div {
+  text-align: center;
+}
+footer {
+  background-color: blue;
+  text-align: center;
+  padding: 50px;
+>>>>>>> 26b735f7effc4fe2cddc69f2735885c5e9556872
   font-family: arial;
   font-size: 10pt;
   color: white;
 }
+<<<<<<< HEAD
 
 
 figure.legenda {
@@ -93,3 +150,5 @@ figure.legenda {
   opacity: 1;
  
 }
+=======
+>>>>>>> 26b735f7effc4fe2cddc69f2735885c5e9556872
